@@ -12,6 +12,8 @@ console.log(last_name)
 const Color_fav = prompt('Inserisci il tuo colore preferito')
 console.log(Color_fav)
 
+const number_random = Math.random()
+
 //ecco il risultato per la password 
 
-document.getElementById('Password').innerHTML = `${First_name}${last_name}${Color_fav}`
+document.getElementById('Password').innerHTML = `${First_name}${last_name}${Color_fav}${number_random}`
